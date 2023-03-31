@@ -3,10 +3,8 @@ var Stack = function() {
     numOfKeys: 0
   };
 
-  // Use an object with numeric keys to store values
   var storage = {};
 
-  // Implement the methods below
   someInstance.push = function(value) {
     var nextPushKeyNum = someInstance.numOfKeys + 1;
     storage[nextPushKeyNum] = value;

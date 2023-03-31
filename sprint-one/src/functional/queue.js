@@ -4,10 +4,7 @@ var Queue = function() {
     lastKey: 0
   };
 
-  // Use an object with numeric keys to store values
   var storage = {};
-
-  // Implement the methods below
 
   someInstance.enqueue = function(value) {
     var enqueueKey = someInstance.lastKey + 1;
